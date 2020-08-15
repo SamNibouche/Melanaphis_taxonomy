@@ -13,6 +13,6 @@ This is code to replicate the analyses of the morphometric data reported in our 
 ### Data
 Morphometric data are available at [DOI:10.18167/DVN1/PDPDS4](http://dx.doi.org/10.18167/DVN1/PDPDS4)
 ### Code
-Use 'SAS code apterous.md' for univariate analysis of apterous specimens with SAS.<br />
-Use 'SAS code alates.md' for univariate analysis of alate specimens with SAS.<br />
+Use 'SAS code apterous.md' for univariate analysis of apterous data with SAS.<br />
+Use 'SAS code alates.md' for univariate analysis of alate data with SAS.<br />
 Use 'R code.md' for multivariate analysis with R.

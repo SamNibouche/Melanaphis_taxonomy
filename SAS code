@@ -1,16 +1,11 @@
- ### Import data
- ```
- /**********************************************************************
- *   PRODUCT:   SAS
- *   VERSION:   9.3
- *   CREATOR:   External File Interface
- *   DATE:      13AUG20
- *   DESC:      Generated SAS Datastep Code
- *   TEMPLATE SOURCE:  (None Specified.)
- ***********************************************************************/
-    data WORK.MORPHOMETRY    ;
-    %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
-    infile 'D:\Mes Données\Etudes\SCYLV\diversité vecteur\morphométrie & taxo\routines stats et data pour dépôt\morphometry_apterous_mean_and_ratio.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+## Data analysis
+### Data
+Morphometric data are available at [DOI:10.18167/DVN1/PDPDS4](http://dx.doi.org/10.18167/DVN1/PDPDS4)
+### Import data
+```
+data WORK.MORPHOMETRY    ;
+	%let _EFIERR_ = 0; /* set the ERROR detection macro variable */
+	infile 'D:\Mes Données\Etudes\SCYLV\diversité vecteur\morphométrie & taxo\routines stats et data pour dépôt\morphometry_apterous_mean_and_ratio.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
        informat specimen $14. ;
        informat MLL $1. ;
        informat species $8. ;
@@ -125,7 +120,7 @@
                 cauda_caudaBW
     ;
     if _ERROR_ then call symputx('_EFIERR_',1);  /* set ERROR detection macro variable */
-    run;
+run;
 ```
 ### Data analysis
 #### synthesis table (Supp. Table 1): computation of mean, min, max, by species

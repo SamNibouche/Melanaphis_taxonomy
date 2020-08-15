@@ -12,3 +12,14 @@ This is code to replicate the analyses of the morphometric data reported in our 
 ## Data analysis
 ### Data
 Morphometric data are available at [DOI:10.18167/DVN1/PDPDS4](http://dx.doi.org/10.18167/DVN1/PDPDS4)
+
+### Load packages
+```
+library(ade4)
+library(adegenet)
+```
+### dataset import and selection of 12 traits
+```
+morpho <- read.table ("morphometry_apterous_mean_and_ratio.csv", head = T, sep = ",", dec =".", fileEncoding = "latin1")
+morpho2<-morpho[,c(1:3,8,26:32,34:36)]
+```

@@ -13,5 +13,5 @@ This is code to replicate the analyses of the morphometric data reported in our 
 ### Data
 Morphometric data are available at [DOI:10.18167/DVN1/PDPDS4](http://dx.doi.org/10.18167/DVN1/PDPDS4)
 ### Code
-See 'SAS code.md' for univariate analysis with SAS.
-See 'R code.md' for multivariate analysis with R.
+Use 'SAS code.md' for univariate analysis with SAS.<br />
+Use 'R code.md' for multivariate analysis with R.

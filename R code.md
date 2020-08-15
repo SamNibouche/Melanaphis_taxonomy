@@ -112,7 +112,7 @@ p<-ggplot(result2, aes(x=LD1,y=LD2, colour=col1,shape=pred)) +
   scale_colour_manual(values = c("green","orange","blue","purple"), 
                       name="Species",
                       labels = c("M. indosacchari", "M. sacchari", "M. sorghi", "M. sorini")
-  )+
+                      )+
   scale_shape_manual(values = c(17,19),
                      name="")+
   theme(legend.position = "bottom",

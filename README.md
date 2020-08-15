@@ -3,7 +3,7 @@
 
 ### PLoS One 2020, DOI:x
 
-This is code to replicate the analyses of the morphometric data reported in our manuscript 'Morphometric and Molecular Delineation of _Melanaphis sacchari_ and _Melanaphis sorghi_'
+This is code to replicate the analyses of the morphometric data reported in our manuscript.  Code developed by Samuel Nibouche (samuel.nibouche 'at' cirad 'dot' fr) | 2020
 
 ## Abstract
 

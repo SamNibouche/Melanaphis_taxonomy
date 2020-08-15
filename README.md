@@ -1,9 +1,9 @@
-# Morphometric and Molecular Delineation of Melanaphis sacchari (Zehntner, 1897) and Melanaphis sorghi (Theobald, 1904)
-## ***Nibouche S, Costet L, Medina RF, Holt JR, Sadeyen J, Zoogones AS, Moretti S, Halbert SE, Blackman RL
+# Morphometric and Molecular Delineation of _Melanaphis sacchari_ (Zehntner, 1897) and _Melanaphis sorghi_ (Theobald, 1904)
+## ***Nibouche S, Costet L, Medina RF, Holt JR, Sadeyen J, Zoogones AS, Moretti S, Halbert SE, Blackman RL***
 
 ### PLoS One 2020, DOI:x
 
-This is code to replicate the analyses of the morphometric data reported in our manuscript 'Morphometric and Molecular Delineation of Melanaphis sacchari and Melanaphis sorghi'
+This is code to replicate the analyses of the morphometric data reported in our manuscript 'Morphometric and Molecular Delineation of _Melanaphis sacchari_ and _Melanaphis sorghi_'
 
 ## Abstract
 

@@ -15,4 +15,4 @@ Morphometric data are available at [DOI:10.18167/DVN1/PDPDS4](http://dx.doi.org/
 ### Code
 Use 'SAS code apterous.md' for univariate analysis of apterous data with SAS.<br />
 Use 'SAS code alates.md' for univariate analysis of alate data with SAS.<br />
-Use 'R code.md' for multivariate analysis with R.
+Use 'R code.md' for multivariate analysis of apterous data with R.

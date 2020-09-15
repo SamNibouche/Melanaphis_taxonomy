@@ -12,7 +12,7 @@ library(ggplot2)
 ```
 morpho <- read.table ("morphometry_apterous_raw.csv", head = T, sep = ",", dec =".", fileEncoding = "latin1")
 ```
-### Computation of means of left and right side, and ratio
+### Computation of means of left and right sides, and ratio
 ```
 morpho$pt<-rowMeans(morpho[,c("pt_r","pt_l")], na.rm=TRUE)
 morpho$HindTibia<-rowMeans(morpho[,c("HindTibia_r","HindTibia_l")], na.rm=TRUE)

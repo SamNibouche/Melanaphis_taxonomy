@@ -100,12 +100,12 @@ data morpho2;
 	siph_HindFemur=siph/HindFemur;
 	siph_cauda=siph/cauda;
 	cauda_caudaBW=cauda/caudaBW;
-	drop htII_r	htII_l	HindFemur_r	HindFemur_l	HindTibia_r	HindTibia_l	HindTibiaW_r
-	HindTibiaW_l	siph_r	siphDW_r	siphBW_r	siph_l	siphDW_l	siphBW_l	AntI_l	AntII_l	AntIII_l	AntIIIBW_l	
-	AntIV_l	AntV_l	VIb_l	pt_l	Ant_l	AntI_r	AntII_r	AntIII_r	AntIIIBW_r AntIII_IV_r AntIII_IV_l	
-	AntIV_r	AntV_r	VIb_r	pt_r	Ant_r	NsetaeAntIII_IV_r	NsetaeAntIII_IV_l	NsetaeAntV_r	
-	NsetaeAntV_l	NRhinAntIII_r	NRhinAntIV_r	NRhinAntV_r	NRhinAntIII_l	NRhinAntIV_l	NRhinAntV_l		NRhinAntIV_r
-;
+	drop htII_r htII_l HindFemur_r HindFemur_l HindTibia_r HindTibia_l HindTibiaW_r
+	HindTibiaW_l siph_r siphDW_r siphBW_r siph_l siphDW_l siphBW_l AntI_l AntII_l AntIII_l AntIIIBW_l	
+	AntIV_l	AntV_l VIb_l pt_l Ant_l AntI_r AntII_r AntIII_r AntIIIBW_r AntIII_IV_r AntIII_IV_l	
+	AntIV_r	AntV_r VIb_r pt_r Ant_r NsetaeAntIII_IV_r NsetaeAntIII_IV_l NsetaeAntV_r	
+	NsetaeAntV_l NRhinAntIII_r NRhinAntIV_r NRhinAntV_r NRhinAntIII_l NRhinAntIV_l NRhinAntV_l NRhinAntIV_r
+	;
 run;
 
 ```

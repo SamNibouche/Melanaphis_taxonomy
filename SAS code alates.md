@@ -4,7 +4,7 @@ Morphometric data are available at [DOI:10.18167/DVN1/PDPDS4](http://dx.doi.org/
 ### Import data
 ```
 data WORK.MORPHOMETRY    ;
-	infile 'D:\Mes Données\Etudes\SCYLV\diversité vecteur\morphométrie & taxo\routines stats et data pour dépôt\morphometry_alates_raw.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
+	infile 'morphometry_alates_raw.csv' delimiter = ',' MISSOVER DSD lrecl=32767 firstobs=2 ;
 	informat specimen $15. ;
 	informat species $8. ;
 	format specimen $15. ;

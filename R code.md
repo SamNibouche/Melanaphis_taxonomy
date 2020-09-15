@@ -10,8 +10,29 @@ library(ggplot2)
 ```
 ### Import the dataset and select the 12 morphological traits
 ```
-morpho <- read.table ("morphometry_apterous_mean_and_ratio.csv", head = T, sep = ",", dec =".", fileEncoding = "latin1")
-morpho2<-morpho[,c(1:3,8,26:32,34:36)]
+morpho <- read.table ("morphometry_apterous_raw.csv", head = T, sep = ",", dec =".", fileEncoding = "latin1")
+```
+### Computation of means of left and right side, and ratio
+```
+morpho$pt<-rowMeans(morpho[,c("pt_r","pt_l")], na.rm=TRUE)
+morpho$HindTibia<-rowMeans(morpho[,c("HindTibia_r","HindTibia_l")], na.rm=TRUE)
+morpho$Ant<-rowMeans(morpho[,c("Ant_r","Ant_l")], na.rm=TRUE)
+morpho$htII<-rowMeans(morpho[,c("htII_r","htII_l")], na.rm=TRUE)
+morpho$VIb<-rowMeans(morpho[,c("VIb_r","VIb_l")], na.rm=TRUE)
+morpho$siph<-rowMeans(morpho[,c("siph_r","siph_l")], na.rm=TRUE)
+morpho$siphBW<-rowMeans(morpho[,c("siphBW_r","siphBW_l")], na.rm=TRUE)
+morpho$pt_cauda<-morpho$pt/morpho$cauda
+morpho$HindTibia_pt<-morpho$HindTibia/morpho$pt
+morpho$Ant_BL<-morpho$Ant/morpho$BL
+morpho$urs_htII<-morpho$urs/morpho$htII
+morpho$pt_VIb<-morpho$pt/morpho$VIb
+morpho$pt_siph<-morpho$pt/morpho$siph
+morpho$cauda_urs<-morpho$cauda/morpho$urs
+morpho$siph_BL<-morpho$siph/morpho$BL
+morpho$siph_siphBW<-morpho$siph/morpho$siphBW
+morpho$siph_cauda<-morpho$siph/morpho$cauda
+
+morpho2<-morpho[,c(1:3,40,52:61)]
 ```
 ### DAPC
 #### filter sacchari and sorghi specimens, excluding MLL-B

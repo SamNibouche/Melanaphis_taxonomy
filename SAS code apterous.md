@@ -52,9 +52,9 @@ data WORK.morphometry;
 	Ant_r
 	NsetaeCauda
 	NsetaeAntIII_IV_r
-	NsetaeAntIII_IV_l $
+	NsetaeAntIII_IV_l 
 	NsetaeAntV_r
-	NsetaeAntV_l $
+	NsetaeAntV_l
 	;
 run;
 ```

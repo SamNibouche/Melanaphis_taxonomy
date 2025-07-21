@@ -1,7 +1,7 @@
 # Morphometric and Molecular Discrimination of _Melanaphis sacchari_ (Zehntner, 1897) and _Melanaphis sorghi_ (Theobald, 1904)
 ## ***Nibouche S, Costet L, Medina RF, Holt JR, Sadeyen J, Zoogones AS, Moretti S, Halbert SE, Blackman RL***
 
-### PLoS One 2020, DOI:x
+### PLoS One 2020, DOI: 10.1371/journal.pone.0241881
 
 This is code to replicate the analyses of the morphometric data reported in our manuscript.  Code developed by Samuel Nibouche (samuel.nibouche 'at' cirad 'dot' fr) | 2020
 
